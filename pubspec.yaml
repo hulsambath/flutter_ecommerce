@@ -1,0 +1,111 @@
+name: ecommerce
+description: "My Ecommerce App"
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.1
+  fluentui_system_icons: ^1.1.238
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.5
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  flutter_native_splash: ^2.4.0
+  cloud_firestore: ^4.17.4
+  fluttertoast: ^8.2.5
+  firebase_messaging: ^14.9.3
+  firebase_storage: ^11.7.6
+  provider: ^6.1.2
+  image_picker: ^1.1.1
+#  flutter_stripe: ^10.1.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  
+  
+  
+  
+  flutter_lints: ^4.0.0
+
+
+
+
+
+flutter:
+
+  
+  
+  
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/logos/
+
+
+
+
+  
+  
+
+  #-------------------- Splash Screen --------------------#
+flutter_native_splash:
+  color: "#003470"
+  color_dark: "#003470"
+  image: "assets/logos/splash.png"
+  image_dark: "assets/logos/splash.png"
+    #  branding: "assets/logo/long_logo.png"
+    #  branding_dark: "assets/logo/long_logo.png"
+
+  android_12:
+    color: "#003470"
+    color_dark: "#003470"
+    image: "assets/logos/splash.png"
+    image_dark: "assets/logos/splash.png"
+    #    branding: "assets/logo/long_logo.png"
+    #    branding_dark: "assets/logo/long_logo.png"
+
+  web: false
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
